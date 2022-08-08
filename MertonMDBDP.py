@@ -8,7 +8,7 @@ import multiprocessing
 import sys
 import time
 
-os.environ['TF_CPP_MIN_LOG_LEVEL'] = '3'
+# os.environ['TF_CPP_MIN_LOG_LEVEL'] = '3'
 
 _MULTIPROCESSING_CORE_COUNT = multiprocessing.cpu_count()
 print("args", sys.argv)
